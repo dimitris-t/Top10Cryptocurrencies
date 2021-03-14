@@ -2,9 +2,9 @@
 
 This tool helps you parse the top X cryptocurrencies for every week since 2013 as posted on https://coinmarketcap.com/historical
 
-Grab the files with:
+Grab the files with:  
 `wget -w 70 -r -l 1 --include-directories=historical https://coinmarketcap.com/historical/`
-In the generated historical folder run:
+In the generated historical folder run:  
 `topcryptoccurencies.py */index.html`
 
 All the fields you see on https://coinmarketcap.com/historical are available for the Python script to parse. By default it will consider the top 10 cryptocurrencies, ignoring Tether, and print the number of weeks in the top 10 plus the last week it was in the top 10. Today this output is:
