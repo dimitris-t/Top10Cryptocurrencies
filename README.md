@@ -3,7 +3,7 @@
 This tool helps you parse the top X cryptocurrencies for every week since 2013 as posted on https://coinmarketcap.com/historical
 
 Grab the files with:  
-`wget -w 70 -r -l 1 --include-directories=historical https://coinmarketcap.com/historical/`
+`wget -w 70 -r -l 1 --include-directories=historical https://coinmarketcap.com/historical/`  
 In the generated historical folder run:  
 `topcryptoccurencies.py */index.html`
 
