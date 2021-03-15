@@ -24,7 +24,13 @@ top10cryptocurrencies = {}
 # Initialise the list
 top10cryptocurrencies_list = []
 
-for file in args.file:
+# Sort the file list from older to newer based on the folder names that are formatted YYYYMMDD. The code below
+# assumes we process files from older to newer. wget will probably give us the files in the right order but
+# we do not want to assume that.
+files_list = args.file
+files_list.sort()
+
+for file in files_list:
 	filehandle = open(file,'r')
 	for line in filehandle:
 		# Look for the line that contains the JSON structure
