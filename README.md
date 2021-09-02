@@ -83,3 +83,5 @@ PIVX,1,20170416
 Storeum,1,20200315  
 TAGZ5,1,20200405  
 Uniswap,1,20210307  
+
+Some results at https://twitter.com/Dimitris/status/1368726824675647499
